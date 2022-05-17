@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open capstone project 2-1.html",
+            "file": "c:\\Users\\IBILEKE.000\\Desktop\\Capstone 2\\capstone project 2-1.html"
+        }
+    ]
+}

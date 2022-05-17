@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Capstone Project 2
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="capstone 2-1.css">
+       <link rel="icon"href="atom.jfif">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="topnav" id="myTopnav">
+            <nav>
+                <ul class="list">
+                    <li> <a href="default.asp"> Home</a> </li>
+                       <li> <a href="news.asp">News </a> </li>
+                       <li><a href="contact.asp">Contact</a></li>
+                       <li><a href="about.asp">About</a></li>
+                </ul>
+            </nav>
+        </div> 
+        </header>
+    </br>
+    <div style="text-align: center;" class="container">
+        <form onsubmit = "checkAlert(this)" method="post">
+            <h1>Create Account</h1>
+            <p>It takes an average of 5-7minutes to complete.</p>
+           <p> <img src="user.png" style="width: 15px;"> <input type="text" id="text" placeholder=" Enter your username"style="border-radius :6px;"required/></p>
+           <p> <img src="email.png" style="width: 19px;">&nbsp;<input type="email" id="text" placeholder=" Enter your email dddress"style="border-radius:6px"required/></p>
+           <p> <img src="phonenumber.png" style="width: 15px;">&nbsp;<input type="numeric" id="text" placeholder="Enter your phone number"pattern="[0-9]*"minlength="11"maxlength="11"title="It must contain 11 digits"style="border-radius:6px"required/></p>
+           <p> <img src="lock.png"style="width:15px;">&nbsp;<input type="password" id="text" placeholder= "Input a strong password" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title= "It must contain at least a digit,a lowercase,an uppercase,and at least 8 characters" style="border-radius:6px"required/> <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i></p>
+           <p> <img src="lock.png"style="width:15px;">&nbsp;<input type="password" name="password" id="text" placeholder= "Confirm Password" pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title= "It must contain at least a digit,a lowercase,an uppercase,and at least 8 characters" style="border-radius:6px"required/> <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i></p>
+           <p style="font-weight:bold"><img src="gender.png"style="width: 15px;">&nbsp;Gender: Female<input type="radio"/>Male<input type="radio"/></p>
+           <p> <button type="Submit" type="button">Submit</button></p>
+        </form>
+    </div>
+
+    <script src="capstone2.js"></script>
+
+    </body>
+</html>
